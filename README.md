@@ -150,7 +150,7 @@ Install Randomly using one of the following methods:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'nom run'
+❯ echo 'npm run'
 ```
 
 
@@ -161,7 +161,7 @@ Run Randomly.git using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'INSERT-RUN-COMMAND-HERE'
+❯ echo 'npm run'
 ```
 
 
@@ -170,7 +170,7 @@ Run the test suite using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'INSERT-TEST-COMMAND-HERE'
+❯ echo 'npm run'
 ```
 
 
@@ -178,8 +178,8 @@ Run the test suite using the following command:
 ##  Project Roadmap
 
 - [X] **`Task 1`**: <strike>All section Done.</strike>
-- [X] **`Task 2`**: Launched.
-- [ ] **`Task 3`**: User-Authentication.
+- [X] **`Task 2`**: <strike>Launched.</strike>
+- [X] **`Task 3`**: User-Authentication.
 
 ---
 
@@ -228,7 +228,7 @@ Run the test suite using the following command:
 
 ##  License
 
-This project is protected under the MIT License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the MIT License. For more details, refer to the [LICENSE](https://github.com/iamsoumaditya/Randomly/blob/main/LICENSE) file.
 
 ---
 
