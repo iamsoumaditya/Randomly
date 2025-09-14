@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Randomly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Story+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#FFF9E6] flex flex-col min-h-screen">
+    <header>
+    <div class="bg-[#111827] flex justify-between p-4">
+      <div class="max-w-40 sm:max-w-max">
+        <img src="../assets/Randomly_logo.png" alt="logo" />
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="bg-black h-20 max-w-20 rounded-full overflow-auto">
+          <img src="" alt="" id="avatar"/>
+        </div>
+        <p title="Click to logout" class="text-white text-xl" id="username"></p>
+      </div>
+    </div>
+    </header>
+    <main id="login" class= " flex-grow flex justify-center items-center">
+        <div class="bg-[#d3d3d3] m-6 p-4 min-w-[300px] min-h-[350px] rounded-lg drop-shadow-xl">
+          <form>
+              <label for="name" class="text-xl font-semibold text-blue-950 block m-2"> Name</label>
+              <input type="text" id="name" class="bg-gray-200 p-4 mt-2 rounded-sm outline-0 w-full" placeholder="Soumo" required>
+              <div class="flex justify-between mt-6 mx-2">
+              <label for="Age" class="text-xl font-semibold text-blue-950  m-2"> Age</label>
+              <select name="age" id="age" class="bg-gray-200 p-2 rounded-sm m-2 outline-0 appearance-none">
+                <option value="child" class="hidden"> Child  &#128071</option>
+                <option value="child">Child</option>
+                <option value="adult">Adult</option>
+              </select>
+              <label for="Gender" class="text-xl font-semibold text-blue-950  m-2"> Gender</label>
+              <select name="" id="gender" class="bg-gray-200 p-2 rounded-sm m-2 outline-0 appearance-none">
+                <option class="hidden" value="male"> Male  &#128071</option>
+                <option value="male">Male</option>
+                <option value="female">female</option>
+              </select>
+              </div>
+              <button type="submit" id="submit-btn" class="bg-[#4A90E2] text-white p-4 rounded-2xl mt-16 block m-auto">Let's Go</button>
+          </form>
+        </div>
+
+    </main>
+    <main id="content"
+      class="flex-grow grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[1fr_2fr_1fr] min-h-[400px] gap-6 m-4 hidden"
+    >
+      <div
+        class="bg-white rounded-lg drop-shadow-lg flex flex-col items-center p-4"
+      >
+        <h1 class="text-3xl font-bold mb-4">Quotes</h1>
+        <div
+          class="bg-[#D9D9D9] min-w-[200px] min-h-[300px] m-4 p-6 rounded-md flex flex-col"
+        >
+        <h1 id="quotes" class= "text-xl text-shadow-gray-900 font-mono mb-6 ">If a man going down into a river, swollen and swiftly flowing, is carried away by the current — how can he help others across?</h1>
+        <p id="author" class="self-end text-lg font-light">rabindranath</p>
+      </div>
+        <button id="Motivate"
+          class="bg-[#3B82F6] p-4 rounded-3xl text-white font-semibold mt-4"
+        >
+          Motivate Me
+        </button>
+      </div>
+      <div
+        class="bg-white rounded-lg drop-shadow-lg flex flex-col items-center p-3"
+      >
+        <h1 class="text-3xl font-bold">Heyy Do you Know Me!!</h1>
+        <div 
+          class="bg-[#D9D9D9] max-w-[200px] max-h-[200px] m-6 rounded-full overflow-auto"
+        >
+        <img id="random-user-image" src="../assets/male.png" alt="" class="object-cover">
+      </div>
+        <div class="flex flex-row m-2 flex-wrap justify-between">
+          <p id="random-user-name" class="bg-[#F9FAFB] rounded-lg px-4 pt-2 pb-2 m-4">Name:</p>
+          <p id="random-user-age" class="bg-[#F9FAFB] rounded-lg px-4 pt-2 pb-2 m-4">Age:</p>
+          <p id="random-user-email" class="bg-[#F9FAFB] rounded-lg px-4 pt-2 pb-2 m-4">E-Mail:</p>
+        </div>
+        <button id="random-user-get"
+          class="bg-[#FFD633] p-4 rounded-3xl text-gray-800 font-semibold mt-6"
+        >
+          Try again
+        </button>
+      </div>
+      <div
+        class="bg-white rounded-lg drop-shadow-lg flex flex-col items-center p-3"
+      >
+        <h1 class="text-3xl font-bold">Jokes</h1>
+        <div
+          class="bg-[#D9D9D9] min-w-[200px] min-h-[300px] m-6 p-6 rounded-md"
+        >
+        <h1 id="jokes" class= "text-xl text-shadow-gray-900 font-serif mb-6 ">If a man going down into a river, swollen and swiftly flowing, is carried away by the current — how can he help others across?</h1>
+      </div>
+        <button id="haha-btn"
+          class="bg-[#FFD633] p-3 rounded-3xl text-gray-800 mt-6 font-semibold"
+        >
+          Haha &#x1F602;
+        </button>
+      </div>
+    </main>
+    <footer class="bg-[#111827] flex flex-col items-center">
+      <p class="text-white text-2xl mt-8 mb-4">Made with frustration for fun</p>
+      <a class="text-gray-600 text-2xl" href="https://www.flaticon.com/free-icons/child" title="child icons">Icons created by Freepik - Flaticon</a>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
