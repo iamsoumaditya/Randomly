@@ -1,6 +1,6 @@
 <p align="center"><h1 align="center">RANDOMLY</h1></p>
 <p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code></code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/iamsoumaditya/Randomly?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -35,13 +35,20 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>My app offers a lighthearted and interactive experience that begins with a simple login flow, collecting basic user details like name, age, gender, and login type. Once inside, users can explore three engaging sections: a random user generator that refreshes with each click, a quotes section delivering thoughtful or humorous insights, and a jokes section designed to spark laughter. The app blends personalization with spontaneity, making it both fun and refreshingly dynamic.</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>
+- User login with name, age, gender, and login type
+- Random user generator with “Try Again” button
+- Quotes section with dynamic quote generation
+- Jokes section with random joke display
+- Refreshable content in all sections
+- Interactive and lightweight UI
+</code>
 
 ---
 
@@ -69,18 +76,18 @@
 
 ###  Project Index
 <details open>
-	<summary><b><code>RANDOMLY.GIT/</code></b></summary>
+	<summary><b><code>RANDOMLY/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/Randomly.git/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/iamsoumaditya/Randomly/blob/master/package-lock.json'>package-lock.json</a></b></td>
+				<td><code></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/Randomly.git/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/iamsoumaditya/Randomly/blob/master/package.json'>package.json</a></b></td>
+				<td><code></code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -90,20 +97,20 @@
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/Randomly.git/blob/master/src/output.css'>output.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/iamsoumaditya/Randomly/blob/master/src/output.css'>output.css</a></b></td>
+				<td><code></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/Randomly.git/blob/master/src/input.css'>input.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/iamsoumaditya/Randomly/blob/master/src/input.css'>input.css</a></b></td>
+				<td><code></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/Randomly.git/blob/master/src/script.js'>script.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/iamsoumaditya/Randomly/blob/master/src/script.js'>script.js</a></b></td>
+				<td><code></code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/Randomly.git/blob/master/src/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/iamsoumaditya/Randomly/blob/master/src/index.html'>index.html</a></b></td>
+				<td><code></code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -117,24 +124,24 @@
 
 Before getting started with Randomly.git, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** Error detecting primary_language: {'json': 2, 'css': 2, 'js': 1, 'html': 1}
+- **Programming Language:** HTML,Tailwind CSS,Javascript
 - **Package Manager:** Npm
 
 
 ###  Installation
 
-Install Randomly.git using one of the following methods:
+Install Randomly using one of the following methods:
 
 **Build from source:**
 
-1. Clone the Randomly.git repository:
+1. Clone the Randomly repository:
 ```sh
-❯ git clone https://github.com/iamsoumaditya/Randomly.git
+❯ git clone https://github.com/iamsoumaditya/Randomly
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd Randomly.git
+❯ cd Randomly
 ```
 
 3. Install the project dependencies:
@@ -143,7 +150,7 @@ Install Randomly.git using one of the following methods:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'INSERT-INSTALL-COMMAND-HERE'
+❯ echo 'nom run'
 ```
 
 
@@ -170,17 +177,17 @@ Run the test suite using the following command:
 ---
 ##  Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [X] **`Task 1`**: <strike>All section Done.</strike>
+- [X] **`Task 2`**: Launched.
+- [ ] **`Task 3`**: User-Authentication.
 
 ---
 
 ##  Contributing
 
-- **💬 [Join the Discussions](https://github.com/iamsoumaditya/Randomly.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/iamsoumaditya/Randomly.git/issues)**: Submit bugs found or log feature requests for the `Randomly.git` project.
-- **💡 [Submit Pull Requests](https://github.com/iamsoumaditya/Randomly.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/iamsoumaditya/Randomly/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/iamsoumaditya/Randomly/issues)**: Submit bugs found or log feature requests for the `Randomly.git` project.
+- **💡 [Submit Pull Requests](https://github.com/iamsoumaditya/Randomly/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -211,8 +218,8 @@ Run the test suite using the following command:
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/iamsoumaditya/Randomly.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=iamsoumaditya/Randomly.git">
+   <a href="https://github.com{/iamsoumaditya/Randomly/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=iamsoumaditya/Randomly">
    </a>
 </p>
 </details>
@@ -221,12 +228,13 @@ Run the test suite using the following command:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the MIT License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
 ##  Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+- FreeAPi.app  - for the api.
+- Falticons for Icon
 
 ---
