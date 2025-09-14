@@ -1,6 +1,6 @@
 {
-  "name": "Randomly",
-  "short_name": "Randomly",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
