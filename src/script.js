@@ -99,19 +99,19 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!user) return;
         username.innerHTML = user.username;
         if (user.age == "child" && user.gender == "male") {
-            userIcon.src = "assets/boy.png";
+            userIcon.src = "./assets/boy.png";
             userIcon.alt = "Boy"
         }
         if (user.age == "adult" && user.gender == "male") {
-            userIcon.src = "assets/male.png";
+            userIcon.src = "./assets/male.png";
             userIcon.alt = "Men";
         }
         if (user.age == "child" && user.gender == "female") {
-            userIcon.src = "assets/girl.png";
+            userIcon.src = "./assets/girl.png";
             userIcon.alt = "Girl";
         }
         if (user.age == "adult" && user.gender == "female") {
-            userIcon.src = "assets/women.png";
+            userIcon.src = "./assets/women.png";
             userIcon.alt = "Woman";
         }
         login.classList.add("hidden");
